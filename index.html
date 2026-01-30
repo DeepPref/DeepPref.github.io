@@ -1,70 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title"
+    content="Aligning Deep Implicit Preferences by Learning to Reason Defensively - Peiming Li, Zhiyuan Hu, Yang Tang, Shiyu Li, Xi Chen">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="description"
+    content="We propose CDRA to align LLMs with deep implicit preferences. By learning defensive reasoning, our model moves beyond superficial mimicry to grasp true intent. ">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <meta name="keywords"
+    content="LLM Alignment, Deep Implicit Preferences, Defensive Reasoning, Reinforcement Learning, AI Safety, Large Language Models, CDRA"">
   <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name=" author" content="Peiming Li, Zhiyuan Hu, Yang Tang, Shiyu Li, Xi Chen">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <meta property="og:site_name" content="Tencent BAC & PKU research">
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
+  <meta property="og:title" content="Aligning Deep Implicit Preferences by Learning to Reason Defensively">
   <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta property="og:description"
+    content="We propose CDRA to align LLMs with deep implicit preferences. By learning defensive reasoning, our model moves beyond superficial mimicry to grasp true intent. ">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:url" content="https://DeepPref.github.io/">
   <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image" content="https://DeepPref.github.io/static/images/intro-final.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="og:image:alt" content="CDRA Framework Overview">
+  <meta property="article:published_time" content="2026-02-01T00:00:00.000Z">
+  <meta property="article:author" content="Peiming Li">
+  <meta property="article:section" content="Computer Science">
+  <meta property="article:tag" content="LLM Alignment">
+  <meta property="article:tag" content="Defensive Reasoning">
+  <meta property="article:tag" content="Reinforcement Learning">
+  <meta property="article:tag" content="Process Supervision">
+
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <meta name="twitter:site" content="@TencentGlobal">
   <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:creator" content="@PeimingLi">
+  <meta name="twitter:title" content="Aligning Deep Implicit Preferences by Learning to Reason Defensively">
+  <meta name="twitter:description"
+    content="Introducing CDRA: A new framework for aligning LLMs with implicit user goals via critique-driven reasoning and the DeepPref benchmark.">
+  <meta name="twitter:image" content="https://DeepPref.github.io/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="CDRA Framework Overview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
+  <meta name="citation_title" content="Aligning Deep Implicit Preferences by Learning to Reason Defensively">
+  <meta name="citation_author" content="Peiming Li">
+  <meta name="citation_author" content="Zhiyuan Hu">
+  <meta name="citation_author" content="Yang Tang">
+  <meta name="citation_author" content="Shiyu Li">
+  <meta name="citation_author" content="Xi Chen">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="arXiv preprint">
+  <meta name="citation_pdf_url" content="https://DeepPref.github.io/static/pdfs/paper.pdf">
+
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
   <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
+
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,22 +83,25 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
+  <title>Aligning Deep Implicit Preferences - Li et al. | Tencent & PKU</title>
+
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
+
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
+
   <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -97,10 +109,10 @@
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
+
   <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -108,76 +120,100 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
+
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": "Aligning Deep Implicit Preferences by Learning to Reason Defensively",
+      "description": "We propose Critique-Driven Reasoning Alignment (CDRA), a framework that aligns LLMs with deep implicit preferences by learning defensive reasoning, moving beyond superficial outcome-based supervision.",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Peiming Li",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Basic Algorithm Center, PCG, Tencent"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Zhiyuan Hu",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "School of Electronic and Computer Engineering, Peking University"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Yang Tang",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Basic Algorithm Center, PCG, Tencent"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Shiyu Li",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Basic Algorithm Center, PCG, Tencent"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Xi Chen",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Basic Algorithm Center, PCG, Tencent"
+          }
         }
+      ],
+      "datePublished": "2026-02-01",
+      "publisher": {
+        "@type": "Organization",
+        "name": "arXiv"
       },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+      "url": "https://DeepPref.github.io/",
+      "image": "https://DeepPref.github.io/static/images/intro-final.png",
+      "keywords": ["Large Language Models", "Alignment", "Defensive Reasoning", "Reinforcement Learning", "Process Supervision", "DeepPref"],
+      "abstract": "Personalized alignment is crucial for enabling Large Language Models (LLMs) to engage effectively in user-centric interactions. However, current methods face a dual challenge: they fail to infer users' deep implicit preferences, and they lack the defensive reasoning required to navigate real-world ambiguity. To address this, we propose Critique-Driven Reasoning Alignment (CDRA), which reframes alignment from a scalar reward-matching task into a structured reasoning process. We introduce the DeepPref benchmark, the Personalized Generative Process Reward Model (Pers-GenPRM), and Critique-Driven Policy Alignment (CDPA). Experiments demonstrate that CDRA excels at discovering and aligning with users' true preferences while executing robust reasoning.",
+      "citation": "Li, P., Hu, Z., Tang, Y., Li, S., & Chen, X. (2026). Aligning Deep Implicit Preferences by Learning to Reason Defensively. arXiv preprint.",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://DeepPref.github.io/"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Large Language Models"
+        },
+        {
+          "@type": "Thing", 
+          "name": "Alignment"
         }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
+      ]
+    }
+    </script>
+
   <!-- Website/Organization Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Basic Algorithm Center, PCG, Tencent",
+      "url": "https://DeepPref.github.io/",
+      "logo": "https://DeepPref.github.io/static/images/favicon.ico",
+      "sameAs": [
+        "https://DeepPref.github.io/"
+      ]
+    }
+    </script>
 </head>
+
 <body>
 
 
@@ -186,335 +222,723 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <!-- TODO: Replace with your paper title -->
+              <h1 class="title is-1 publication-title">Aligning Deep Implicit Preferences by Learning to Reason
+                Defensively</h1>
+              <div class="is-size-5 publication-authors">
+                <!-- Author 1: Peiming Li (1, Equal*, Lead‡, Corr†) -->
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                  <a href="#" target="_blank">Peiming Li</a><sup>1,*</sup>,
+                </span>
+                <!-- Author 2: Zhiyuan Hu (2, Equal*) -->
+                <span class="author-block">
+                  <a href="#" target="_blank">Zhiyuan Hu</a><sup>2,*</sup>,
+                </span>
+                <!-- Author 3: Yang Tang (1, Lead‡, Corr†) -->
+                <span class="author-block">
+                  <a href="#" target="_blank">Yang Tang</a><sup>1,&Dagger;,&dagger;</sup>,
+                </span>
+                <!-- Author 4: Shiyu Li (1) -->
+                <span class="author-block">
+                  <a href="#" target="_blank">Shiyu Li</a><sup>1</sup>,
+                </span>
+                <!-- Author 5: Xi Chen (1, Corr†) -->
+                <span class="author-block">
+                  <a href="#" target="_blank">Xi Chen</a><sup>1,&dagger;</sup>
+                </span>
+              </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+              <div class="is-size-5 publication-authors">
+                <!-- Affiliations -->
+                <span class="author-block"><sup>1</sup>Basic Algorithm Center, PCG, Tencent</span>&nbsp;&nbsp;
+                <span class="author-block"><sup>2</sup>School of Electronic and Computer Engineering, Peking
+                  University</span>
+              </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+              <div class="is-size-5 publication-authors">
+                <!-- Footnotes / Contributions -->
+                <span class="eql-cntrb">
+                  <small>
+                    <sup>*</sup>Equal contribution.
+                    <sup>&Dagger;</sup>Project Lead.
+                    <sup>&dagger;</sup>Corresponding author.
+                  </small>
+                </span>
+              </div>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+              <!-- <div class="column has-text-centered">
+                <span class="tag is-success is-light is-large" style="font-family: monospace; font-weight: bold;">
+                  ICLR 2026 ACCEPTED
+                </span>
+              </div> -->
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <!-- TODO: Update with your arXiv paper ID -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  <!-- Hugging Face Dataset Link -->
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/TencentBAC/DeepPref" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-database"></i>
+                      </span>
+                      <span>Hugging Face</span>
                     </a>
                   </span>
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <a href="https://github.com/Zephyrian-Hugh/Deep-pref" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
                   </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
+    <!-- Teaser Figure-->
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <!-- TODO: Replace the figure with your image -->
+          <div class="has-text-centered">
+            <img src="static/images/intro-final.png" alt="Teaser Figure" style="width: 100%;">
+          </div>
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+          <!-- TODO: Update caption based on your paper -->
+          <h2 class="subtitle has-text-centered" style="font-size: 1.1rem; margin-top: 15px;">
+            <b>(a) Problem Formulation:</b> Optimizing for outcomes rather than the reasoning process creates the dual
+            preference and process gaps. <br>
+            <b>(b) Comparison of Alignment Paradigms:</b> Standard approaches (left) match superficial preferences,
+            while our <b>CDRA</b> (right) is process-driven and explicitly bridges both gaps.
+          </h2>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+    </section>
+    <!-- End teaser figure -->
 
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <!-- Abstract Title -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+            <!-- Abstract Content -->
+            <div class="content has-text-justified" style="font-size: 1.1rem; line-height: 1.8;">
 
+              <!-- Part 1: Context & Problem -->
+              <p>
+                Personalized alignment is crucial for enabling Large Language Models (LLMs) to engage effectively in
+                user-centric interactions. However, current methods face a <b>dual challenge</b>: they fail to infer
+                users'
+                deep implicit preferences (including unstated goals, semantic context, and risk tolerances), and they
+                lack the defensive reasoning required to navigate real-world ambiguity. This cognitive gap leads to
+                responses that are superficial, brittle, and short-sighted.
+              </p>
 
+              <!-- Part 2: Core Solution & Benchmark -->
+              <p>
+                To address this, we propose <strong>Critique-Driven Reasoning Alignment (CDRA)</strong>, which reframes
+                alignment from a scalar reward-matching task into a structured reasoning process. First, to bridge the
+                preference inference gap, we introduce the <strong>DeepPref</strong> benchmark. This dataset, comprising
+                3000 preference-query pairs across 20 topics, is curated by simulating a multi-faceted cognitive council
+                that produces critique-annotated reasoning chains to deconstruct query semantics and reveal latent
+                risks.
+              </p>
 
+              <!-- Part 3: Methodology & Conclusion -->
+              <p>
+                Second, to instill defensive reasoning, we introduce the <strong>Personalized Generative Process Reward
+                  Model (Pers-GenPRM)</strong>. It frames reward modeling as a personalized reasoning task, generating a
+                critique chain to evaluate a response's alignment before outputting a final score. Ultimately, this
+                interpretable signal guides the policy model through a process-level online reinforcement learning
+                algorithm.
+                Experiments demonstrate that CDRA excels at discovering and aligning with users' true preferences while
+                executing robust reasoning.
+              </p>
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
+    </section>
+    <!-- End paper abstract -->
 
+    <!-- ============================================ -->
+    <!--            Section 4: The Problem            -->
+    <!-- ============================================ -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-full-width">
+            <h2 class="title is-3 has-text-centered">The Problem: The Dual Gap</h2>
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
+            <!-- Part A: Theoretical Gap (Figure 1) -->
+            <!-- REPLACEMENT START: Perfectly Balanced Dual Gap -->
+            <div class="box"
+              style="background: #fcfcfc; border: 1px solid #f0f0f0; box-shadow: 0 10px 40px -10px rgba(0,0,0,0.08); padding: 3rem 2rem;">
+
+              <div class="columns is-centered" style="position: relative;">
+
+                <!-- Vertical Divider (Absolute centered for perfect positioning) -->
+                <div class="is-hidden-mobile"
+                  style="position: absolute; left: 50%; top: 10%; bottom: 10%; width: 1px; background: linear-gradient(to bottom, transparent, #e0e0e0, transparent);">
+                </div>
+
+                <!-- ================= LEFT: The Preference Gap ================= -->
+                <div class="column is-5 has-text-centered" style="padding: 0 2rem;">
+
+                  <!-- Header -->
+                  <div style="margin-bottom: 2rem;">
+                    <span class="icon is-large"
+                      style="background: linear-gradient(135deg, #fff0f3, #ffe6eb); color: #ff3860; border-radius: 20px; width: 70px; height: 70px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(255, 56, 96, 0.15);">
+                      <i class="fas fa-heart-broken fa-2x"></i>
+                    </span>
+                    <h3 class="title is-4 mt-4 mb-1" style="color: #2c3e50;">The Preference Gap</h3>
+                    <p class="is-size-6 has-text-grey-light" style="font-weight: 400;">Misalignment of Intent</p>
+                  </div>
+
+                  <!-- Flow Container -->
+                  <div class="is-flex is-flex-direction-column" style="gap: 1.5rem;">
+
+                    <!-- Top Box (Fixed Height) -->
+                    <div
+                      style="background: white; border: 1px solid #eaeaea; border-radius: 12px; min-height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+                      <p class="is-size-7 has-text-grey is-uppercase has-text-weight-bold"
+                        style="letter-spacing: 1px; margin-bottom: 0.5rem;">User Says</p>
+                      <p class="is-size-5 has-text-dark" style="font-family: 'Google Sans', sans-serif;">"Surface
+                        Instruction"</p>
+                    </div>
+
+                    <!-- Connector -->
+                    <div style="position: relative; height: 20px;">
+                      <div
+                        style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2;">
+                        <span class="tag is-white"
+                          style="border: 1px solid #ff3860; color: #ff3860; border-radius: 50px; padding: 0 12px; font-size: 0.8rem;">
+                          <i class="fas fa-times-circle mr-1"></i> Fails to Infer
+                        </span>
+                      </div>
+                      <hr style="background-color: #f0f0f0; margin: 0; position: absolute; top: 50%; width: 100%;">
+                    </div>
+
+                    <!-- Bottom Box (Fixed Height & Dark Theme) -->
+                    <div
+                      style="background: #2d3436; border-radius: 12px; min-height: 120px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem; box-shadow: 0 8px 20px rgba(45, 52, 54, 0.2);">
+                      <p class="is-size-7 has-text-grey-light is-uppercase has-text-weight-bold"
+                        style="letter-spacing: 1px; margin-bottom: 0.5rem;">User Actually Means</p>
+                      <p class="is-size-5 has-text-white has-text-weight-semibold" style="line-height: 1.3;">
+                        Unstated Goals & <br> Risk Tolerance
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- ================= RIGHT: The Process Gap ================= -->
+                <div class="column is-5 has-text-centered" style="padding: 0 2rem;">
+
+                  <!-- Header -->
+                  <div style="margin-bottom: 2rem;">
+                    <span class="icon is-large"
+                      style="background: linear-gradient(135deg, #fff9db, #fff3cd); color: #f1c40f; border-radius: 20px; width: 70px; height: 70px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(241, 196, 15, 0.15);">
+                      <i class="fas fa-shield-alt fa-2x"></i>
+                    </span>
+                    <h3 class="title is-4 mt-4 mb-1" style="color: #2c3e50;">The Process Gap</h3>
+                    <p class="is-size-6 has-text-grey-light" style="font-weight: 400;">Lack of Defensive Reasoning</p>
+                  </div>
+
+                  <!-- Flow Container -->
+                  <div class="is-flex is-flex-direction-column" style="gap: 1.5rem;">
+
+                    <!-- Top Box (Fixed Height) -->
+                    <div
+                      style="background: white; border: 1px solid #eaeaea; border-radius: 12px; min-height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+                      <p class="is-size-7 has-text-grey is-uppercase has-text-weight-bold"
+                        style="letter-spacing: 1px; margin-bottom: 0.5rem;">Model Input</p>
+                      <p class="is-size-5 has-text-dark" style="font-family: 'Google Sans', sans-serif;">Ambiguous Query
+                      </p>
+                    </div>
+
+                    <!-- Connector -->
+                    <div style="position: relative; height: 20px;">
+                      <div
+                        style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2;">
+                        <span class="tag is-white"
+                          style="border: 1px solid #f1c40f; color: #d4ac0d; border-radius: 50px; padding: 0 12px; font-size: 0.8rem;">
+                          <i class="fas fa-forward mr-1"></i> Skips Reasoning
+                        </span>
+                      </div>
+                      <hr style="background-color: #f0f0f0; margin: 0; position: absolute; top: 50%; width: 100%;">
+                    </div>
+
+                    <!-- Bottom Box (Fixed Height & Dashed Theme) -->
+                    <div
+                      style="background: #fffbfb; border: 2px dashed #ff7675; border-radius: 12px; min-height: 120px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem;">
+                      <p class="is-size-7 has-text-danger is-uppercase has-text-weight-bold"
+                        style="letter-spacing: 1px; margin-bottom: 0.5rem;">Model Output</p>
+                      <p class="is-size-5 has-text-danger has-text-weight-medium" style="line-height: 1.3;">
+                        Superficial & <br> Brittle Response
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Caption -->
+              <div class="has-text-centered mt-5 pt-4" style="border-top: 1px solid #f5f5f5;">
+                <p class="is-size-7 has-text-grey" style="max-width: 800px; margin: 0 auto;">
+                  <b>Figure 1: Conceptual Illustration of the Dual Gap.</b>
+                  (Left) The <i>Preference Gap</i> occurs when models fail to infer hidden user intent.
+                  (Right) The <i>Process Gap</i> occurs when models generate responses directly without defensive
+                  reasoning steps.
+                </p>
+              </div>
+            </div>
+            <!-- REPLACEMENT END -->
+
+            <!-- Part B: Concrete Example (Location Sharing) -->
+            <div class="box has-background-light" style="border-left: 5px solid #ff3860;">
+              <h4 class="title is-5">Scenario: "I don't feel comfortable sharing my real-time location."</h4>
+              <div class="columns is-vcentered">
+                <div class="column is-6">
+                  <span class="tag is-dark">Standard Model</span>
+                  <p class="is-size-6 mt-2">
+                    Focuses on the keyword <b>"Location"</b>. It might simply turn off the GPS or explain how to use
+                    settings, missing the underlying emotional context.
+                  </p>
+                </div>
+                <div class="column is-6" style="border-left: 1px solid #ddd;">
+                  <span class="tag is-danger">CDRA (Ours)</span>
+                  <p class="is-size-6 mt-2">
+                    Identifies the deep preference for <b>"Privacy & Autonomy"</b>. It reasons defensively about
+                    <i>why</i> the user is uncomfortable and proposes solutions that address safety concerns, not just
+                    technical settings.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
+    </section>
 
 
+    <!-- ============================================ -->
+    <!--           Section 5: Methodology             -->
+    <!-- ============================================ -->
+    <section class="section" style="background-color: #f5f7fa;">
+      <div class="container is-max-desktop">
 
+        <!-- Title -->
+        <div class="has-text-centered mb-6">
+          <h2 class="title is-3">Methodology: CDRA Framework</h2>
+          <p class="subtitle is-6 has-text-grey">A three-stage pipeline from data construction to policy alignment.</p>
+          <div
+            style="width: 60px; height: 4px; background: linear-gradient(90deg, #3273dc, #00d1b2); margin: 1rem auto; border-radius: 2px;">
+          </div>
+        </div>
 
+        <!-- ================= Step 1: DeepPref (Left-Right Layout) ================= -->
+        <!-- 适合方形或 4:3 图片 -->
+        <div class="box" style="border-radius: 12px; padding: 2rem; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+          <div class="columns is-vcentered">
+            <div class="column is-6">
+              <span class="tag is-info is-light is-rounded mb-3" style="font-weight: bold;">Step 01</span>
+              <h3 class="title is-4">DeepPref Benchmark</h3>
+              <div class="content has-text-justified">
+                <p>
+                  To bridge the preference inference gap, we introduce <strong>DeepPref</strong>, the first dataset
+                  featuring critique-annotated reasoning chains.
+                </p>
+                <p>
+                  It comprises <strong>3000 preference-query pairs</strong> curated by simulating a
+                  <span class="has-text-weight-bold" style="color: #3273dc;">"Cognitive Council"</span>. Different
+                  personas (e.g., Psychologist, Security Expert) collaborate to deconstruct query semantics and reveal
+                  latent risks.
+                </p>
+              </div>
+            </div>
+            <div class="column is-6 has-text-centered">
+              <figure class="image"
+                style="border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+                <img src="static/images/dataset.png" alt="DeepPref Cognitive Council">
+              </figure>
+            </div>
+          </div>
+        </div>
 
+        <!-- Connector Arrow 1 (Perfectly Centered) -->
+        <div
+          style="display: flex; justify-content: center; align-items: center; margin: -1.2rem 0; position: relative; z-index: 10;">
+          <span class="icon is-large has-text-grey-light"
+            style="background: #fff; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 40px; height: 40px;">
+            <i class="fas fa-arrow-down"></i>
+          </span>
+        </div>
 
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
+        <!-- ================= Step 2: Pers-GenPRM (Top-Bottom Layout) ================= -->
+        <!-- 针对宽图优化：文字在上，图片在下全宽展示 -->
+        <div class="box" style="border-radius: 12px; padding: 2rem; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+          <div class="content">
+            <div class="columns is-vcentered mb-2">
+              <div class="column is-12">
+                <span class="tag is-warning is-light is-rounded mb-2" style="font-weight: bold;">Step 02</span>
+                <h3 class="title is-4 is-inline-block ml-2">Personalized Generative PRM</h3>
+                <p class="has-text-justified mt-2">
+                  We propose <strong>Pers-GenPRM</strong>, shifting reward modeling from "black-box scoring" to a
+                  <span class="has-text-weight-bold" style="color: #d4ac0d;">"Reasoning then Scoring"</span> process.
+                  Instead of outputting a single scalar, the model first generates a <b>critique chain</b> to explicitly
+                  evaluate alignment. The final score is derived based on this interpretable rationale.
+                </p>
+              </div>
+            </div>
 
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+            <!-- Full Width Image Container -->
+            <figure class="image mt-4"
+              style="border: 1px solid #eee; border-radius: 8px; overflow: hidden; padding: 10px; background: #fafafa;">
+              <img src="static/images/PRM.png" alt="Pers-GenPRM Pipeline"
+                style="max-height: 400px; object-fit: contain;">
+            </figure>
+          </div>
+        </div>
+
+        <!-- Connector Arrow 2 (Perfectly Centered) -->
+        <div
+          style="display: flex; justify-content: center; align-items: center; margin: -1.2rem 0; position: relative; z-index: 10;">
+          <span class="icon is-large has-text-grey-light"
+            style="background: #fff; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 40px; height: 40px;">
+            <i class="fas fa-arrow-down"></i>
+          </span>
+        </div>
+
+        <!-- ================= Step 3: CDPA (Top-Bottom Layout) ================= -->
+        <!-- 针对宽图优化 -->
+        <div class="box" style="border-radius: 12px; padding: 2rem; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+          <div class="content">
+            <div class="columns is-vcentered mb-2">
+              <div class="column is-12">
+                <span class="tag is-danger is-light is-rounded mb-2" style="font-weight: bold;">Step 03</span>
+                <h3 class="title is-4 is-inline-block ml-2">Critique-Driven Policy Alignment</h3>
+                <p class="has-text-justified mt-2">
+                  Finally, we introduce <strong>CDPA</strong>, a process-level online reinforcement learning algorithm.
+                  CDPA leverages the <span class="has-text-weight-bold" style="color: #ff3860;">token-level
+                    advantage</span> derived from critique chains to solve the "Zero Advantage" problem, integrating
+                  natural language feedback to guide the policy model.
+                </p>
+              </div>
+            </div>
+
+            <!-- Full Width Image Container -->
+            <figure class="image mt-4"
+              style="border: 1px solid #eee; border-radius: 8px; overflow: hidden; padding: 10px; background: #fafafa;">
+              <img src="static/images/CDPA.png" alt="CDPA Algorithm" style="max-height: 400px; object-fit: contain;">
+            </figure>
+          </div>
+        </div>
+
       </div>
-    </div>
-  </section>
-<!--End paper poster -->
+    </section>
 
 
+    <!-- ================= SECTION 6: QUALITATIVE RESULTS (CASE STUDY) ================= -->
+    <section class="section">
+      <div class="container is-max-desktop">
 
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+        <!-- Header -->
+        <div class="has-text-centered mb-6">
+          <h2 class="title is-3">Qualitative Comparison</h2>
+          <p class="subtitle is-6 has-text-grey">
+            Comparison between Baseline (TPO) and <strong>CDRA (Ours)</strong> on handling implicit intent.
           </p>
+          <div
+            style="width: 60px; height: 4px; background: linear-gradient(90deg, #ff3860, #23d160); margin: 1rem auto; border-radius: 2px;">
+          </div>
+        </div>
+
+        <!-- The User Query (Context) -->
+        <div class="box" style="background: #fcfcfc; border-left: 5px solid #3273dc; margin-bottom: 2rem;">
+          <p class="is-size-6 has-text-grey is-uppercase has-text-weight-bold mb-1">User Query (Ambiguous/Risky)</p>
+          <p class="is-size-4" style="font-family: 'Google Sans', sans-serif;">
+            "I need to find a way to make sure my family is safe when I travel alone. What's the best way to let them
+            know where I am without constantly calling?"
+          </p>
+          <p class="is-size-7 has-text-grey mt-2">
+            <i class="fas fa-info-circle"></i> <b>Implicit Intent:</b> The user wants safety, but implicitly values
+            <i>autonomy</i> and <i>privacy</i> (doesn't want to be tracked 24/7).
+          </p>
+        </div>
+
+        <!-- Comparison Columns -->
+        <div class="columns is-centered">
+
+          <!-- LEFT: Baseline (TPO) -->
+          <div class="column is-6">
+            <div class="message is-danger" style="height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+              <div class="message-header" style="background-color: #ff3860;">
+                <p><i class="fas fa-times-circle mr-2"></i> Baseline (TPO)</p>
+              </div>
+              <div class="message-body" style="background-color: #fff5f7; height: 100%;">
+                <div class="content">
+                  <p class="has-text-weight-bold has-text-danger-dark">Superficial Response:</p>
+                  <p>
+                    "You should install a permanent location tracking app like <b>Life360</b> or <b>Find My Friends</b>.
+                    These apps allow your family to see your real-time location 24/7 so they always know where you are."
+                  </p>
+                  <hr style="background-color: #ffcccc;">
+                  <p class="is-size-7 has-text-danger-dark">
+                    <b>Analysis:</b> The model fails to detect the implicit need for privacy ("without constantly
+                    calling" implies a desire for low-friction, not necessarily invasive surveillance). It suggests an
+                    overly intrusive solution.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: CDRA (Ours) -->
+          <div class="column is-6">
+            <div class="message is-success" style="height: 100%; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+              <div class="message-header" style="background-color: #23d160;">
+                <p><i class="fas fa-check-circle mr-2"></i> CDRA (Ours)</p>
+              </div>
+              <div class="message-body" style="background-color: #f0fcf4; height: 100%;">
+
+                <!-- Internal Monologue / Defensive Reasoning -->
+                <div class="box"
+                  style="background-color: #e6fffa; border: 1px dashed #00d1b2; padding: 0.75rem; margin-bottom: 1rem;">
+                  <p class="is-size-7 has-text-weight-bold" style="color: #00947e; margin-bottom: 0.5rem;">
+                    <i class="fas fa-brain mr-1"></i> Defensive Reasoning (Internal)
+                  </p>
+                  <p class="is-size-7" style="color: #2c3e50;">
+                    The user prioritizes safety but the phrase "without constantly calling" suggests they value <span
+                      style="background-color: #fff3cd; padding: 0 2px;">autonomy and privacy</span>. Constant tracking
+                    might be too invasive. I should suggest tools that offer <i>check-ins</i> rather than
+                    <i>surveillance</i>.
+                  </p>
+                </div>
+
+                <div class="content">
+                  <p class="has-text-weight-bold has-text-success-dark">Aligned Response:</p>
+                  <p>
+                    "To balance safety with privacy, you might consider using <b>'Check-in' features</b> (like in
+                    WhatsApp or iOS Safety Check) rather than permanent tracking. This allows you to share your location
+                    only when <i>you</i> choose to, or automatically notify them only if you don't arrive at a
+                    destination by a set time."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
-    </div>
-  </div>
-</footer>
+    </section>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- ================= SECTION 7: QUANTITATIVE RESULTS ================= -->
+    <section class="section" style="background-color: #f5f7fa; display: none;">
+      <div class="container is-max-desktop">
+
+        <!-- Title Area -->
+        <div class="has-text-centered mb-6">
+          <h2 class="title is-3" style="font-family: 'Google Sans', sans-serif;">Quantitative Analysis</h2>
+          <p class="subtitle is-6 has-text-grey">
+            Comprehensive evaluation on the <b>DeepPref</b> benchmark.
+          </p>
+        </div>
+
+        <!-- Main Dashboard Card -->
+        <div class="box p-0" style="border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+          <!-- Top Highlights Bar (Optional: Adds context) -->
+          <div class="columns is-gapless is-mobile has-text-centered"
+            style="background: #fcfcfc; border-bottom: 1px solid #eee; padding: 1rem 0;">
+            <div class="column">
+              <p class="heading has-text-grey-light">Following</p>
+              <p class="title is-5 has-text-success">84.7% <span class="is-size-7 has-text-success-light">↑</span></p>
+            </div>
+            <div class="column" style="border-left: 1px solid #eee;">
+              <p class="heading has-text-grey-light">Defense</p>
+              <p class="title is-5 has-text-success">76.3% <span class="is-size-7 has-text-success-light">↑</span></p>
+            </div>
+            <div class="column" style="border-left: 1px solid #eee;">
+              <p class="heading has-text-grey-light">Reasoning</p>
+              <p class="title is-5 has-text-success">65.0% <span class="is-size-7 has-text-success-light">↑</span></p>
+            </div>
+          </div>
+
+          <div class="columns is-gapless">
+
+            <!-- LEFT: Chart Area -->
+            <div class="column is-6" style="border-right: 1px solid #f0f0f0; padding: 2rem;">
+              <h4 class="title is-6 mb-4 has-text-centered" style="color: #4a4a4a;">
+                <i class="fas fa-chart-pie mr-2" style="color: #00d1b2;"></i>Capability Dimensions
+              </h4>
+              <figure class="image" style="margin: 0 auto;">
+                <img src="static/images/final_chart_fixed_labels.png" alt="Radar Chart"
+                  style="width: 100%; object-fit: contain;">
+              </figure>
+              <p class="is-size-7 has-text-grey has-text-centered mt-4" style="line-height: 1.6;">
+                <b>Figure 4:</b> CDRA (Red) demonstrates balanced superiority, significantly outperforming baselines in
+                <span class="has-text-weight-bold" style="color: #00d1b2;">Defensive Reasoning</span> tasks.
+              </p>
+            </div>
+
+            <!-- RIGHT: Table Area -->
+            <div class="column is-6" style="padding: 2rem; background-color: #fff;">
+              <h4 class="title is-6 mb-4 has-text-centered" style="color: #4a4a4a;">
+                <i class="fas fa-table mr-2" style="color: #3273dc;"></i>Performance Comparison
+              </h4>
+
+              <div class="table-container">
+                <table class="table is-fullwidth is-hoverable" style="background: transparent;">
+                  <thead>
+                    <tr>
+                      <th class="has-text-grey-light is-size-7 is-uppercase" style="border: none;">Method</th>
+                      <th class="has-text-centered has-text-grey-light is-size-7 is-uppercase" style="border: none;">
+                        Acc<sub>PF</sub></th>
+                      <th class="has-text-centered has-text-grey-light is-size-7 is-uppercase" style="border: none;">
+                        Acc<sub>DA</sub></th>
+                      <th class="has-text-centered has-text-grey-light is-size-7 is-uppercase" style="border: none;">
+                        m<sub>dm</sub></th>
+                    </tr>
+                  </thead>
+                  <tbody style="font-family: 'Roboto Mono', monospace; font-size: 0.95rem;">
+                    <!-- Baseline -->
+                    <tr>
+                      <td style="border: none; padding: 1rem 0.5rem;">TPO</td>
+                      <td class="has-text-centered has-text-grey" style="border: none; padding: 1rem 0.5rem;">55.3</td>
+                      <td class="has-text-centered has-text-grey" style="border: none; padding: 1rem 0.5rem;">36.3</td>
+                      <td class="has-text-centered has-text-grey" style="border: none; padding: 1rem 0.5rem;">15.7</td>
+                    </tr>
+                    <!-- Strong 1 -->
+                    <tr>
+                      <td style="border: none; padding: 1rem 0.5rem;">SFT</td>
+                      <td class="has-text-centered" style="border: none; padding: 1rem 0.5rem;">83.3</td>
+                      <td class="has-text-centered" style="border: none; padding: 1rem 0.5rem;">75.0</td>
+                      <td class="has-text-centered" style="border: none; padding: 1rem 0.5rem;">63.7</td>
+                    </tr>
+                    <!-- Strong 2 -->
+                    <tr>
+                      <td style="border: none; padding: 1rem 0.5rem;">GRPO</td>
+                      <td class="has-text-centered" style="border: none; padding: 1rem 0.5rem;">83.7</td>
+                      <td class="has-text-centered" style="border: none; padding: 1rem 0.5rem;">70.3</td>
+                      <td class="has-text-centered" style="border: none; padding: 1rem 0.5rem;">58.7</td>
+                    </tr>
+
+                    <!-- OURS: Card Style Row -->
+                    <tr style="
+                    background: linear-gradient(90deg, #e6fffa 0%, #f0fff4 100%); 
+                    box-shadow: 0 2px 10px rgba(0,209,178,0.15); 
+                    border-radius: 8px;
+                    transform: scale(1.02);
+                ">
+                      <td class="has-text-weight-bold"
+                        style="border: none; padding: 1rem 0.5rem; border-radius: 8px 0 0 8px; color: #00947e;">
+                        CDRA (Ours)
+                      </td>
+                      <td class="has-text-centered has-text-weight-bold has-text-success-dark"
+                        style="border: none; padding: 1rem 0.5rem;">84.7</td>
+                      <td class="has-text-centered has-text-weight-bold has-text-success-dark"
+                        style="border: none; padding: 1rem 0.5rem;">76.3</td>
+                      <td class="has-text-centered has-text-weight-bold has-text-success-dark"
+                        style="border: none; padding: 1rem 0.5rem; border-radius: 0 8px 8px 0;">65.0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="is-size-7 has-text-grey-light mt-3 has-text-centered">
+                * Metrics denote Preference Following (Acc<sub>PF</sub>), Defense Alignment (Acc<sub>DA</sub>), and
+                Reasoning Quality (m<sub>dm</sub>).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@article{li2025aligning,
+  title={Aligning Deep Implicit Preferences by Learning to Reason Defensively},
+  author={Peiming Li and Zhiyuan Hu and Yang Tang and Shiyu Li and Xi Chen},
+  journal={arXiv preprint arXiv:2509.XXXXX},
+  year={2025},
+  url={https://DeepPref.github.io/}
+}</code></pre>
+      </div>
+    </section>
+    <!--End BibTex citation -->
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+
+              <p>
+                This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                  target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                  href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                You are free to borrow the source code of this website, we just ask that you link back to this page in
+                the footer. <br> This website is licensed under a <a rel="license"
+                  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                  Commons Attribution-ShareAlike 4.0 International License</a>.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Statcounter tracking code -->
+
+    <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+
+</html>
